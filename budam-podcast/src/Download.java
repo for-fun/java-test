@@ -5,8 +5,9 @@ import java.net.URL;
 
 public class Download {
     public static void main(String[] args) throws IOException {
+        Download dwn = new Download();
         for (int i = 1; i <= 422; i++) {
-            new Download().saveUrl("http://myflex.org/yf/podru/budam" + i +".mp3");
+            dwn.saveUrl("http://myflex.org/yf/podru/budam" + i +".mp3");
         }
     }
 
